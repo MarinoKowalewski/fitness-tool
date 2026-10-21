@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts'
-import { Activity, ArrowRight, ChevronLeft, Dumbbell, Footprints, HeartPulse, TrendingUp, Check, Plus, Trash2, Download, Upload, BarChart3, CalendarCheck, Award, Timer, Pause, Play, RotateCcw } from 'lucide-react'
+import { Activity, ArrowRight, ChevronLeft, Dumbbell, Footprints, HeartPulse, TrendingUp, Check, Plus, Trash2, Download, Upload, BarChart3, CalendarCheck, Timer, Pause, Play, RotateCcw } from 'lucide-react'
 import './App.css'
 
 type Workout = 'Push' | 'Pull' | 'Beine' | 'Cardio'
